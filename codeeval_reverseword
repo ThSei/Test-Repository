@@ -1,0 +1,7 @@
+import sys, string
+with open(sys.argv[1], 'r') as input:
+    test_cases = input.read().strip().splitlines()
+for sentence in test_cases:
+  words = sentence.split()
+  sentence_rev = " ".join(reversed(words))
+  print sentence_rev
