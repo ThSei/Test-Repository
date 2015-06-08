@@ -18,7 +18,7 @@ def is_prime(n):
 		f += 6
 	return True
 
-
+# Addes ths comment, for using a test-branch
 for num in range(1000, 3, -1):
 #for num in range(100, 1001, 1):
 #for num in range(1001):
